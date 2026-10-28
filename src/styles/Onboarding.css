@@ -1,0 +1,154 @@
+.onboarding-page {
+  min-height: 100vh;
+  background: #f3f6fd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+
+.onboarding-card {
+  width: 100%;
+  max-width: 650px;
+  background: #f3f1f1;
+  padding: 45px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+
+.onboarding-card h1 {
+  text-align: center;
+  color: #666968;
+  font-size: 32px;
+  margin-bottom: 10px;
+  font-weight: 800;
+
+}
+
+
+.welcome-text {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  color: #1034d9;
+  margin-bottom: 8px;
+}
+
+
+.sub-text {
+  text-align: center;
+  color: #555;
+  margin-bottom: 35px;
+}
+
+
+
+.question-section {
+  margin-bottom: 35px;
+}
+
+
+.question-section h2 {
+  font-size: 18px;
+  color: #111827;
+  margin-bottom: 8px;
+}
+
+
+.question-section p {
+  font-size: 14px;
+  color: #6b7280;
+  margin-bottom: 15px;
+}
+
+
+
+/* Score and study selection */
+
+.options-grid,
+.study-options {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+
+.options-grid button,
+.study-options button {
+
+  padding: 15px;
+  background: #ffffff;
+  border: 1px solid #d8dce5;
+  border-radius: 12px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+
+.options-grid button:hover,
+.study-options button:hover {
+
+  border-color: #565657;
+  background: #b6b8bd;
+
+}
+
+
+
+/* Subject input */
+
+.question-section input {
+
+  width: 100%;
+  padding: 15px 18px;
+  border-radius: 10px;
+  border: 1px solid #616263;
+  outline: none;
+  font-size: 15px;
+
+}
+
+
+.question-section input:focus {
+
+  border-color: #6c6d70;
+
+}
+
+
+
+/* Continue button */
+
+.continue-btn {
+
+  width: 100%;
+  padding: 16px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 12px;
+  background: #87888f;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+
+}
+
+
+.continue-btn:hover {
+
+  background: #565657;
+
+}
+.options-grid button.selected,
+.study-options button.selected {
+
+  background-color: #56565c;
+  color: rgb(141, 137, 137);
+  border-color: #82838a;
+
+}

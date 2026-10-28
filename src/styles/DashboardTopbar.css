@@ -1,0 +1,67 @@
+.dashboard-topbar {
+
+  width:100%;
+
+  margin-bottom:35px;
+
+}
+
+
+.dashboard-search-box {
+
+  width:100%;
+
+  height:60px;
+
+  background:#ffffff;
+
+  border:1px solid #ddc5aa;
+
+  border-radius:18px;
+
+  display:flex;
+
+  align-items:center;
+
+  padding:0 22px;
+
+  gap:15px;
+
+  box-shadow:0 4px 12px rgba(107,68,35,0.08);
+
+}
+
+
+.dashboard-search-box svg {
+
+  color:#6b4423;
+
+  flex-shrink:0;
+
+}
+
+
+.dashboard-search-box input {
+
+  width:100%;
+
+  height:100%;
+
+  border:none;
+
+  outline:none;
+
+  font-size:16px;
+
+  color:#4b2e1e;
+
+  background:transparent;
+
+}
+
+
+.dashboard-search-box input::placeholder {
+
+  color:#a78b6d;
+
+}

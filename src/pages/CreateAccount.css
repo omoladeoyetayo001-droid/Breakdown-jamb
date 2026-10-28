@@ -1,0 +1,428 @@
+/* =========================
+   RESET
+========================= */
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+
+/* =========================
+   PAGE
+========================= */
+
+.signup-page{
+
+  min-height:100vh;
+
+  width:100%;
+
+  display:flex;
+
+  justify-content:center;
+
+  align-items:center;
+
+  background-image:url("/student.jpg");
+
+  background-size:cover;
+
+  background-position:center;
+
+  background-repeat:no-repeat;
+
+}
+
+
+
+/* =========================
+   RIGHT SIDE
+========================= */
+
+.signup-right{
+
+  width:100%;
+
+  display:flex;
+
+  justify-content:center;
+
+  align-items:center;
+
+  padding:40px;
+
+}
+
+
+
+/* =========================
+   CARD
+========================= */
+
+.signup-card{
+
+  width:100%;
+
+  max-width:550px;
+
+  background:rgba(255,255,255,0.65);
+
+  backdrop-filter:blur(12px);
+
+  border-radius:35px;
+
+  padding:45px;
+
+  box-shadow:0 15px 40px rgba(0,0,0,.15);
+
+}
+
+
+
+/* =========================
+   HEADER
+========================= */
+
+.signup-card h2{
+
+  font-size:32px;
+
+  color:#0a1e6e;
+
+  margin-bottom:10px;
+
+}
+
+
+
+.signup-card p{
+
+  color:#5a6275;
+
+  font-size:15px;
+
+  line-height:1.6;
+
+  margin-bottom:28px;
+
+}
+
+
+
+/* =========================
+   INPUT FIELDS
+========================= */
+
+.signup-card input[type="text"],
+.signup-card input[type="email"],
+.signup-card input[type="password"]{
+
+  width:100%;
+
+  padding:15px 18px;
+
+  margin-bottom:16px;
+
+  border:1px solid #636466;
+
+  border-radius:10px;
+
+  outline:none;
+
+  font-size:15px;
+
+  color:#000;
+
+  background:#f2f3f7;
+
+  transition:.3s;
+
+}
+
+
+
+.signup-card input::placeholder{
+
+  color:#737477;
+
+}
+
+
+
+.signup-card input:focus{
+
+  border-color:#636466;
+
+  background:rgb(83, 80, 80);
+
+  box-shadow:0 0 0 3px rgba(16,52,217,.12);
+
+}
+
+
+
+/* =========================
+   PASSWORD INFO
+========================= */
+
+.password-info{
+
+  margin-top:-5px;
+
+  margin-bottom:18px;
+
+  font-size:13px;
+
+  color:#5a6275;
+}
+
+
+
+/* =========================
+   TERMS
+========================= */
+
+.terms{
+
+  display:flex;
+
+  align-items:flex-start;
+
+  gap:10px;
+
+  font-size:14px;
+
+  color:#5a6275;
+
+  margin-bottom:10px;
+
+}
+
+
+
+.terms input{
+
+  margin-top:3px;
+
+}
+
+
+
+/* =========================
+   BUTTON
+========================= */
+
+.create-button{
+
+  width:100%;
+
+  height:52px;
+
+  border:none;
+
+  border-radius:10px;
+
+  background:#666968;
+
+  color:white;
+
+  font-size:16px;
+
+  font-weight:600;
+
+  cursor:pointer;
+
+  transition:.3s;
+
+}
+
+
+
+.create-button:hover{
+
+  background:#0d2cb6;
+
+}
+
+
+
+/* =========================
+   DIVIDER
+========================= */
+
+.divider{
+
+  text-align:center;
+
+  margin:22px 0;
+
+  color:#7b8498;
+
+  font-size:14px;
+
+}
+
+
+
+/* =========================
+   GOOGLE BUTTON
+========================= */
+
+.google-button{
+
+  width:100%;
+
+  height:52px;
+
+  border:1px solid #d8dce5;
+
+  border-radius:10px;
+
+  background:white;
+
+  display:flex;
+
+  justify-content:center;
+
+  align-items:center;
+
+  gap:12px;
+
+  font-size:15px;
+
+  font-weight:500;
+
+  color:#202124;
+
+  cursor:pointer;
+
+}
+
+
+
+.google-button:hover{
+
+  background:#f8f9fa;
+
+}
+
+
+
+.google-icon{
+
+  width:20px;
+
+  height:20px;
+
+}
+
+
+
+/* =========================
+   SIGN IN TEXT
+========================= */
+
+.signin-text{
+
+  text-align:center;
+
+  margin-top:24px;
+
+  font-size:14px;
+
+  color:#5a6275;
+
+}
+
+
+
+.signin-text a{
+
+  margin-left:6px;
+
+  color:#1034d9;
+
+  text-decoration:none;
+
+  font-weight:600;
+
+}
+
+
+
+.signin-text a:hover{
+
+  text-decoration:underline;
+
+}
+
+
+
+/* =========================
+   BACK HOME
+========================= */
+
+.back-home{
+
+  background:white;
+
+  position:fixed;
+
+  top:0;
+
+  left:0;
+
+  padding:8px;
+
+  z-index:9999;
+
+  border-radius:0 0 8px 0;
+
+}
+
+
+
+.back-home a{
+
+  color:#1854fa;
+
+  text-decoration:none;
+
+  font-size:15px;
+
+  font-weight:800;
+
+}
+
+
+
+.back-home a:hover{
+
+  text-decoration:underline;
+
+}
+
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media(max-width:900px){
+
+  .signup-right{
+
+    padding:20px;
+
+  }
+
+
+  .signup-card{
+
+    padding:35px;
+
+  }
+
+}
